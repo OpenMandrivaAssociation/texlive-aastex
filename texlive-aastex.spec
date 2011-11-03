@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/aastex
+# catalog-date 2007-01-26 22:11:52 +0100
+# catalog-license lppl
+# catalog-version 5.2
 Name:		texlive-aastex
 Version:	5.2
 Release:	1
@@ -53,6 +59,7 @@ class in preference to any of the alternatives available.
 %doc %{_texmfdistdir}/doc/latex/aastex/sample.tex
 %doc %{_texmfdistdir}/doc/latex/aastex/table.tex
 %doc %{_texmfdistdir}/doc/latex/aastex/video3.mpg
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ class in preference to any of the alternatives available.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
