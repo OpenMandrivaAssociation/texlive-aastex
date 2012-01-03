@@ -6,7 +6,7 @@
 # catalog-version 5.2
 Name:		texlive-aastex
 Version:	5.2
-Release:	1
+Release:	2
 Summary:	Macros for Manuscript Preparation for AAS Journals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aastex
