@@ -60,3 +60,18 @@ class in preference to any of the alternatives available.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 5.2-2
++ Revision: 749041
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 5.2-1
++ Revision: 717781
+- texlive-aastex
+- texlive-aastex
+- texlive-aastex
+- texlive-aastex
+- texlive-aastex
+
