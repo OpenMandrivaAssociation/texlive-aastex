@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/aastex
-# catalog-date 2007-01-26 22:11:52 +0100
-# catalog-license lppl
-# catalog-version 5.2
 Name:		texlive-aastex
-Version:	5.2
-Release:	10
+Version:	6.0
+Release:	1
 Summary:	Macros for Manuscript Preparation for AAS Journals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aastex
@@ -34,22 +28,8 @@ class in preference to any of the alternatives available.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/aastex/aastex.cls
-%{_texmfdistdir}/tex/latex/aastex/aastex.sty
-%doc %{_texmfdistdir}/doc/latex/aastex/README
-%doc %{_texmfdistdir}/doc/latex/aastex/aasclass.tex
-%doc %{_texmfdistdir}/doc/latex/aastex/aasguide.pdf
-%doc %{_texmfdistdir}/doc/latex/aastex/aasguide.tex
-%doc %{_texmfdistdir}/doc/latex/aastex/aassymbols.pdf
-%doc %{_texmfdistdir}/doc/latex/aastex/aassymbols.tex
-%doc %{_texmfdistdir}/doc/latex/aastex/datafile1.txt
-%doc %{_texmfdistdir}/doc/latex/aastex/f1.eps
-%doc %{_texmfdistdir}/doc/latex/aastex/f2.eps
-%doc %{_texmfdistdir}/doc/latex/aastex/f2_color.eps
-%doc %{_texmfdistdir}/doc/latex/aastex/f3.eps
-%doc %{_texmfdistdir}/doc/latex/aastex/sample.tex
-%doc %{_texmfdistdir}/doc/latex/aastex/table.tex
-%doc %{_texmfdistdir}/doc/latex/aastex/video3.mpg
+%{_texmfdistdir}/tex/latex/aastex
+%doc %{_texmfdistdir}/doc/latex/aastex
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,18 +40,3 @@ class in preference to any of the alternatives available.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 5.2-2
-+ Revision: 749041
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 5.2-1
-+ Revision: 717781
-- texlive-aastex
-- texlive-aastex
-- texlive-aastex
-- texlive-aastex
-- texlive-aastex
-
