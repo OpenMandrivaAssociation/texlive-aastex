@@ -1,5 +1,5 @@
 Name:		texlive-aastex
-Version:	6.0
+Version:	6.2
 Release:	1
 Summary:	Macros for Manuscript Preparation for AAS Journals
 Group:		Publishing
