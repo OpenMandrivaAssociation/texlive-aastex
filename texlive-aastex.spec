@@ -3,7 +3,7 @@ Version:	58057
 Release:	2
 Summary:	Macros for Manuscript Preparation for AAS Journals
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aastex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/aastex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aastex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aastex.doc.r%{version}.tar.xz
